@@ -1,3 +1,8 @@
+<!-- MathJax -->
+<script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+
 ## Solving for the bounce of a minigolf ball
 
 ![BallHeight](fig/ballh.png "BallTrajectory")
@@ -100,7 +105,7 @@ The first and foremost reason (in addition to having a good reason for some summ
 
 This, of course, comes with some drawbacks. It is challenging to get all the bounces to stay within the frame. Especially for fast and hard balls, I had some trouble getting good measurements. First of all, I could invest in a better surface because the concrete slab I used was very uneven and produced noticeably inaccurate measurements. There is energy loss due to uneven surfaces. In many cases, bouncing some amount sideways causes shorter flight times. I can think of some workarounds involving repeat measures, but it is better to find an even surface.
 
-### Referecne
+### References
 
 Schwager, T., & Pöschel, T. (2007). Coefficient of restitution and linear–dashpot model revisited. Granular Matter, 9(6), 465-469.
 
