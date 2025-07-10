@@ -1,0 +1,7 @@
+title: Minigolf Physics
+description: Measuring bounce coefficients with IR sensors
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
