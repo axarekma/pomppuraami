@@ -5,3 +5,10 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+# serve from /docs/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
