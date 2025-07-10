@@ -3,10 +3,6 @@ layout: default
 title: Minigolf Physics
 ---
 
-# Minigolf Physics
-
-Measuring bounce coefficients with IR sensors using cheap hardware.
-
 <script>
   window.MathJax = {
     tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
