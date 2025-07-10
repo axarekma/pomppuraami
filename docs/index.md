@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Minigolf Physics
+title: The Pomppuraami
 ---
 
 <script>
@@ -82,7 +82,7 @@ where $\hat{T_i}$ is the measured times, and minimize everything with your favor
 
 For the experimental setup, I arranged an array of infrared brake beams. Since we don't really care about the location, it's easy enough to wire everything in parallel to a single signal. The detectors are placed as close to the ground as possible.
 
-I didn't add any timing (what is this called) for the sensors, so I had to block spurious signals by pinholes in front of both the IR LEDs and the sensors to block stray light from the adjacent break beam pair.
+I didn't implement any signal modulation or multiplexing for the sensors. In principle, I could have jittered or modulated the IR signals to distinguish which beam was triggered. Instead, to block spurious signals from adjacent break beams, I added pinholes in front of both the IR LEDs and the sensors to limit stray light.
 
 As soon as any beam is broken, we record the time. I added an additional 50 ms (non-active) cooldown after each event, as it was theoretically below any possible detected signal.
 
