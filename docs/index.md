@@ -26,11 +26,17 @@ $$
 
 where $\Delta t = t_2-t_1$. The bounce of the ball is then given by $h/h_0$.
 
+In principle, we chan extend this further, by just continuing recording bounce times. We can solve for each successive bounce by calculating
+
+$$
+b = \frac{h_{i+1}}{h_{i}} \, .
+$$
+
 So what happens in practice...
 
 ![BallHeight](fig/ideal_setup.png "ContactZoom")
 
-There are two things here. First of all, the bounce of the ball is not constant, as it is dependent on the speed of impact. Second, for a detector at a finite height, we can only measure a limited number of bounces, as the ball will eventually cease to rise above the detection zone after some time. Additionally, without further corrections, the measured bounce is deviating from the ideal case.
+There are two things here. First of all, for an ideal measurement, the bounce of the ball is not constant, as it is dependent on the speed of impact. As the ball slows down, the measured bounce of the ball goes up. Second, for a detector at a finite height, we can only measure a limited number of bounces, as the ball will eventually cease to rise above the detection zone after a certain amount of time. Additionally, without further corrections, the measured bounce deviates from the ideal case.
 
 Let's dig deeper into the contact mechanics.
 
@@ -38,7 +44,7 @@ Let's dig deeper into the contact mechanics.
 
 ![BallHeight](fig/ball_contact.png "ContactZoom")
 
-When the ball hits the ground, it gets squished. This is when elastic energy is stored in the elastic deformation. When thiis energy is released, the ball bounces again. This contact time is not part of the flight time, so including it in the flight time will overestimate the COR. Additionally, the detector is located at some height above the surface of the contract. This means that there is a shift between the contact and the detection, and due to velocity differences between the different bounces, this can not be modeled as a simple affine shift.
+When the ball hits the ground, it gets squished. This is when elastic energy is stored in the elastic deformation. When thiis energy is released, the ball bounces again. This contact time is not part of the flight time, so including it in the flight time will overestimate the coefficient of restitution (square root of bounce). Additionally, the detector is located at some height above the surface of the contract. This means that there is a shift between the contact and the detection, and due to velocity differences between the different bounces, this can not be modeled as a simple affine shift.
 
 Our final model for the times is now
 
