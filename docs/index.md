@@ -106,9 +106,7 @@ For the Herzian model, we minimize the loss to get the best-fit parameters for t
 
 ![BallHeight](fig/calibrated_measurements.png "calibrated_measurements")
 
-What is immediately apparent here is the clear velocity dependence of the bounce. The Herzian model is at least a step closer to the measuring property inherent to the material and less so to the experimental setup (namely, the initial height).
-
-The model performed remarkably well in determining the initial height for the two slower balls. Still, for some reason, it underestimates the height for the faster one. The exact reason here eludes me.
+What is immediately apparent here is the clear velocity dependence of the bounce. The Herzian model does a fairly good job at measuring a property inherent to the material and less so to the experimental setup (namely, the initial height). The model performed remarkably well in determining the initial height for the two slower balls. Still, for some reason, it underestimates the height for the faster one. The exact reason here eludes me.
 
 ### Conclusions
 
@@ -118,7 +116,6 @@ The first and foremost reason (in addition to having a good reason for some summ
 
 This, of course, comes with some drawbacks. It is challenging to get all the bounces to stay within the frame. Especially for fast and hard balls, I had some trouble getting good measurements. First of all, I could invest in a better surface because the concrete slab I used was very uneven and produced noticeably inaccurate measurements. There is energy loss due to uneven surfaces. In many cases, bouncing some amount sideways causes shorter flight times. I can think of some workarounds involving repeat measures, but it is better to find an even surface.
 
-In all its portable glory:
 ![BallHeight](fig/1000016906.jpg "Pomppuraami")
 
 ### References
